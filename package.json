@@ -1,0 +1,11 @@
+{
+  "name": "luka-natural-elegance",
+  "version": "1.0.0",
+  "description": "Fullstack Ecommerce Platform",
+  "scripts": {
+    "install": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "dev": "npm run install && start \"Backend\" cmd /c \"cd backend && npm run dev\" && start \"Frontend\" cmd /c \"cd frontend && npm run dev\""
+  }
+}
